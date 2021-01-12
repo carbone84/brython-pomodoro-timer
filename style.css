@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #224941 url('./snowsunset.jpg') no-repeat center center/cover;
+    color: #fff;
+    font-family: sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+}
+.container {
+    margin: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 50%;
+    background-color: black;
+    border-radius: 2%/5%;
+}
+.digit {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 4%/2%;
+    margin: 5px;
+    padding: 1em 0;
+}
+.container div {
+    font-size: 2em;
+}
+.pom-num {
+    width: 75px;
+}
+#start-btn {
+    height: 50px;
+    width: 100px;
+    background: yellow;
+    font: black;
+    font-size: 1.2rem;
+    border-radius: 8%;
+}
+a {
+    color: #fff;
+}
+#countdown {
+    font-size: 2em;
+}
